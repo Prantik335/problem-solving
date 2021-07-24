@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899a5cbf-1ad3-449a-a96b-1e61d3c84806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../python/uri1001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/out/production/java/me/prantik/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/src/me/prantik/URI1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/me/prantik/URI1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/uri1000.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/uri1000.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/uri1000.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python" />
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
