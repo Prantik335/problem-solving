@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="899a5cbf-1ad3-449a-a96b-1e61d3c84806" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1vkwnJO9xaSEZjAS6f2Ub8d38mF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,9 +39,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Uri1002Kt">
     <configuration name="Main" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin" />
       <option name="VM_PARAMETERS" />
@@ -58,12 +68,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Uri1002Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Uri1002Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainKt" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Uri1002Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uri1002Kt" />
+        <item itemvalue="Application.Uri1002Kt" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainKt" />
       </list>
