@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899a5cbf-1ad3-449a-a96b-1e61d3c84806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java/src/me/prantik/URI1001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
