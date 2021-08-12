@@ -1,22 +1,27 @@
 package me.prantik;
 
-import java.util.Scanner;
+import java.util.*;
+
 
 class Solution {
-    public static void main(String []argh){
-        Scanner in = new Scanner(System.in);
-        int t=in.nextInt();
-        for(int i=0;i<t;i++){
-            int a = in.nextInt();
-            int b = in.nextInt();
-            int n = in.nextInt();
-            int c = a;
-            for(int j=0;j<n;j++){
-                c += Math.pow(2, j)*b;
-                System.out.printf("%s ",c);
+    public static void main(String[] argh) {
+
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
+
+        for (int i = 0; i < t; i++) {
+            try {
+                long x = scanner.nextLong();
+                System.out.println(x + " can be fitted in:");
+                if (x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE) System.out.println("* byte");
+                if (x >= Short.MIN_VALUE && x <= Short.MAX_VALUE) System.out.println("* short");
+                if (x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE) System.out.println("* int");
+                System.out.println("* long");
+
+            } catch (Exception e) {
+                System.out.println(scanner.next() + " can't be fitted anywhere.");
             }
-            System.out.println();
         }
-        in.close();
+        scanner.close();
     }
 }
