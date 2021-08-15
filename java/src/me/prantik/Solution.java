@@ -1,27 +1,29 @@
 package me.prantik;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.Scanner;
 
+public class Solution {
 
-class Solution {
-    public static void main(String[] argh) {
+    public static String getSmallestAndLargest(String s, int k) {
+        LinkedList<String> substrings = new LinkedList<>();
 
-        Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt();
-
-        for (int i = 0; i < t; i++) {
-            try {
-                long x = scanner.nextLong();
-                System.out.println(x + " can be fitted in:");
-                if (x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE) System.out.println("* byte");
-                if (x >= Short.MIN_VALUE && x <= Short.MAX_VALUE) System.out.println("* short");
-                if (x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE) System.out.println("* int");
-                System.out.println("* long");
-
-            } catch (Exception e) {
-                System.out.println(scanner.next() + " can't be fitted anywhere.");
-            }
+        for (int i = 0; i <= s.length() - k; i++) {
+            substrings.add(s.substring(i, i + k));
         }
-        scanner.close();
+        substrings.sort(Comparator.naturalOrder());
+
+        return substrings.getFirst() + "\n" + substrings.getLast();
+    }
+
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.next();
+        int k = scan.nextInt();
+        scan.close();
+
+        System.out.println(getSmallestAndLargest(s, k));
     }
 }
