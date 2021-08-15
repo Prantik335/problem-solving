@@ -1,20 +1,25 @@
 package me.prantik;
 
-import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Solution {
 
     public static String getSmallestAndLargest(String s, int k) {
-        LinkedList<String> substrings = new LinkedList<>();
+
+        String smallest = "";
+        String largest = "";
 
         for (int i = 0; i <= s.length() - k; i++) {
-            substrings.add(s.substring(i, i + k));
+            String sub = s.substring(i, i + k);
+            if(smallest.compareTo(sub) > 0 || smallest.isEmpty()) {
+                smallest = sub;
+            }
+            if(largest.compareTo(sub) < 0) {
+                largest = sub;
+            }
         }
-        substrings.sort(Comparator.naturalOrder());
 
-        return substrings.getFirst() + "\n" + substrings.getLast();
+        return smallest + "\n" + largest;
     }
 
 
