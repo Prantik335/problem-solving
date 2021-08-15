@@ -1,34 +1,21 @@
 package me.prantik;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
 
-    public static String getSmallestAndLargest(String s, int k) {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        sc.close();
 
-        String smallest = "";
-        String largest = "";
-
-        for (int i = 0; i <= s.length() - k; i++) {
-            String sub = s.substring(i, i + k);
-            if(smallest.compareTo(sub) > 0 || smallest.isEmpty()) {
-                smallest = sub;
-            }
-            if(largest.compareTo(sub) < 0) {
-                largest = sub;
-            }
-        }
-
-        return smallest + "\n" + largest;
+        System.out.println(isPalindrome(A) ? "Yes" : "No");
     }
 
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String s = scan.next();
-        int k = scan.nextInt();
-        scan.close();
-
-        System.out.println(getSmallestAndLargest(s, k));
+    public static boolean isPalindrome(String word) {
+        int s = 0, e = word.length();
+        while (word.charAt(s++) == word.charAt(--e) && s <= e);
+        return s > e;
     }
 }
+
