@@ -1,3 +1,6 @@
+// Book: Programming Contest Data Structure & Algorithm
+// Chapter 2.2
+
 #include <stdio.h>
 #include <math.h>
 
